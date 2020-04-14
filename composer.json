@@ -1,0 +1,19 @@
+{
+    "name": "gabriel/miniframework",
+    "require": {
+        "php": ">=7.0"        
+    },
+    "description": "Miniframework que pode ser reutilizado em projetos futuros",
+    "authors": [
+        {
+            "name": "Gabriel Silva Nascimento",
+            "email": "gabriel_silva@discente.ufg.br"            
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+}
